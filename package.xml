@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>tactilesensors4</name>
+  <version>1.0.0</version>
+  <description>The "tactilesensors v4" package</description>
+  <author email="jean-philippe.roberge@etsmtl.ca">jproberge</author>
+  <maintainer email="berith.de-la-cruz-sanchez.1@ens.etsmtl.ca">eroberge</maintainer>
+  <license>LGPLv3</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>rosidl_default_runtime</depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
